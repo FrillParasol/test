@@ -1,5 +1,6 @@
 import React from "react";
-import Navbar from "./components/Navbar.jsx";
+import Header from "./components/Header";
+
 const App = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const App = () => {
       <button id="b">r</button>
 
       <div>
-        <Navbar></Navbar>
+        <Header></Header>
       </div>
     </>
   );
