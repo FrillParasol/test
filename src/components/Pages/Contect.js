@@ -8,19 +8,18 @@ const Img = styled.img`
   width: 100vw;
   height: 100%;
 `;
-const Home = () => {
+const Contect = () => {
   return (
     <>
-      <h1>여기는 home 페이지 입니다.</h1>
+      <h1>여기는 Contect 페이지 입니다.</h1>
       <h2>메롱이야.</h2>
       <Img src={bg} />
       <Typing loop="true" startDelay="1">
         <span>이 페이지는 리윀트로 제작되었습니다.</span>
-        <span>이 페이지는 Home page 제작되었습니다.</span>
         <Typing.Backspace count={30} startDelay="1000" />
       </Typing>
     </>
   );
 };
 
-export default Home;
+export default Contect;
